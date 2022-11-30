@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leading Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="close-menu" class="close-menu" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+         <h1 onclick="getElementById ('close-menu').checked = false;">
+            <a href="#home">LOGO</a>
+        </h1>
+
+         <nav>
+             <ul onclick="getElementById ('close-menu').checked = false;">
+                 <li><a href="#intro">Introdução</a></li>
+                 <li><a href="index2.html">Grid-One</a></li>
+                 <li><a href="index3.html">Gallery</a></li>
+             </ul>
+          </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+            <h2>Seja Bem-Vinda Princesa do Igor</h2>
+            <p>Parabéns, se você chegou até aqui, significa que você acertou as questões passada.</p>
+            	
+         <a href="index2.html"><p class="seta"> &#10132;</p></a>
+        </div>
+        <div class="intro-img">
+            <img src="img/capa.jpg" alt="Capa.jpg">
+        </div>
+    </div> 
+    </section>
+
+     <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">♥</span> por Igor Trad</p>
+     </footer>
+
+     <a class="back-to-top" href="#">Top</a>
+
+</body>
+</html>
